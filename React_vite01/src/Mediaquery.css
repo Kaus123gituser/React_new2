@@ -1,0 +1,116 @@
+/* media query for the device */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; 
+
+@media screen and (min-width: 375px) {
+    /* Add your CSS rules here */
+   .navbar{
+}
+.new_container{
+        display: flex;
+        flex-direction: column;
+        /* background-color: aqua; */
+
+   }
+   .ul_area{
+    margin-top: 50px;
+   }
+   .section_area{
+    margin-top: 109px;
+    display: flex;
+    flex-direction: column;
+   }
+   .image_frame{
+       width: 400px;
+       /* margin: 90px 90px; */
+       margin-top: 30px;
+       /* margin-right: -32px; */
+   }
+   .image1{
+    width: 632px;    
+    height: 332px;
+    /* margin-right:112px ; */
+    margin: -17px;
+   }
+   .para{
+    display: flex;
+    flex-direction: column  ;
+   }
+   .para_section1{
+    width: 200px;
+    margin: 12px -41px;
+   }
+   .btnclass{
+    width: 200px;
+    margin: 12px -41px;
+   }
+   .Brands{
+    width: 232px;
+    margin: 12px -41px;
+   }
+}
+@media screen and (max-width: 320px) {
+    /* Add your CSS rules here */
+   .navbar{
+}
+.container1{
+    width: 100%;
+    background-color: ;
+
+}
+.new_container{
+        display: flex;
+        flex-direction: column;
+        /* background-color: aqua; */
+        width: 100%;
+
+   }
+   .ul_area{
+    margin-top: 50px;
+   }
+   .section_area{
+    margin-top: 109px;
+    display: flex;
+    flex-direction: column;
+   }
+   .image_frame{
+       width: 200px;
+       /* margin: 90px 90px; */
+       margin-top: 30px;
+       /* margin-right: -32px; */
+   }
+   .image1{
+    width: 332px;    
+    height: 332px;
+    /* margin-right:112px ; */
+    margin: -17px;
+   }
+   .para{
+    display: flex;
+    flex-direction: column  ;
+   }
+   .para_section1{
+    width: 200px;
+    margin: 12px -41px;
+   }
+   .btnclass{
+    width: 200px;
+    margin: 12px -41px;
+   }
+   .Brands{
+    width: 232px;
+    margin: 12px -41px;
+   }
+   .above_section{
+    width: 150%;
+    margin: auto;
+    height: 100%;
+   }
+   .project_section{
+   /* width: 100%; */
+   }
+   .inside_Section{
+    /* width: 50%; */
+   }
+}

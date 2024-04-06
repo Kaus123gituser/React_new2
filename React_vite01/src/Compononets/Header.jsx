@@ -1,21 +1,19 @@
 import React from 'react';
-import { Route,Routes } from 'react-router';
+import { Route, Routes } from 'react-router-dom';
 import Skills from './Skills';
 import Projects from './Projects';
 import Testimonails from './Testimonals';
-import {FaHome} from 'react-icons/fa';
 
-const Header=()=>{
+const Header = () => {
 
-    return(<>
-        <FaHome/>
-    <Routes>
-        <Route path='/' element={<Skills/>}>Skills</Route>
-        <Route path='/projects' element={<Projects/>}>Projects</Route>
-        <Route path='/testimonals' element={<Testimonails/>}>testimonaials</Route>
+    return (<>
+        <Routes>
+            <Route path='/' element={<Skills />}>Skills</Route>
+            <Route path='/projects' element={<Projects />}>Projects</Route>
+            <Route path='/testimonals' element={<Testimonails />}>testimonaials</Route>
 
-    </Routes>
-    
+        </Routes>
+
     </>);
 };
 

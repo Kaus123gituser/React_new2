@@ -1,12 +1,12 @@
 import React from 'react';
-import {BsFacebook,BsTwitter,BsInstagram,BsYoutube} from 'react-icons/bs';
+import { BsFacebook, BsTwitter, BsInstagram, BsYoutube } from 'react-icons/bs';
 import img1 from '../assets/new_photo_for_dev.avif'
-const Hero=()=>{
-    
-    return(<>
-    <div className='flex  justify-center  items-center  text-white hover:text-gray-300 space-x-4'>
-    </div>
-        <section className='flex justify-around items-center p-10 space-x-10 lg:flex-row ssm:flex-col ssm:space-y-10 text-white'>
+const Hero = () => {
+
+    return (<>
+        <div className='flex  justify-center  items-center  text-white hover:text-gray-300 space-x-4'>
+        </div>
+        <section className='flex justify-around items-center p-10 space-x-10 lg:flex-row ssm:flex-col ssm:space-y-10 text-white section_area'>
             <div className='lg:w-1/3 ssm:w-fit'>
                 <p className='text-4x1 mb-5 text-slate'>I'm</p>
                 <h1 className='text=6x1'>Kaustubh saxena</h1>
@@ -15,31 +15,31 @@ const Hero=()=>{
                     A Freelancer Developer. Are you in need of a skilled and dedicated freelance web developer to bring your project to life? Look no further! With years of experience in the field, I offer top-notch web development services tailored to meet your specific needs.
                 </p>
             </div>
-            <div className='w=1/3 items-center ssm:w-fit'>
-                <img src={img1} alt="" width={250} height={250}  className='rounded-full w-full border-8 border-white'/>
+            <div className='w=1/3 items-center ssm:w-fit image_frame'>
+                <img src={img1} alt="" width={550} height={350} className='rounded-full max-w-full h-auto border-8 border-white image1' />
             </div>
-            <div className='w-1/3 ssm:w-fit'>
+            <div className='w-1/3 ssm:w-fit para'>
+                <p className='text-slate-300 para_section1'>
                 <p className='text-4xl mb-4'> About Me</p>
-                <p className='text-slate-300'>
-                    Let's build quality in programming ad design with our Services 
+                    Let's build quality in programming ad design with our Services
                 </p>
-                <button className='bg-white text-indigo-600 px-10 py-2 my-3 rounded-full hover:bg-indigo-800 hover:text-white k'>
+                <button className='bg-white text-indigo-600 px-10 py-2 my-3 rounded-full hover:bg-indigo-800 hover:text-white k btnclass'>
                     Show More...
                 </button>
                 <div>
-                    <div className='flex mt-5 space-x-4 cursor-pointer'>
-                        
-    <BsFacebook className='border-4 hover:border-indigo-800 rounded-full' size={40} />
-    <BsTwitter className='border-4 hover:border-indigo-800 rounded-full' size={40}/>
-    <BsInstagram className='border-4 hover:border-indigo-800 rounded-full' size={40}/>
-    <BsYoutube className='border-4 hover:border-indigo-800 rounded-full' size={40}/>
+                    <div className='flex mt-5 space-x-4 cursor-pointer Brands'>
+
+                        <BsFacebook className='border-4 hover:border-indigo-800 rounded-full' size={40} />
+                        <BsTwitter className='border-4 hover:border-indigo-800 rounded-full' size={40} />
+                        <BsInstagram className='border-4 hover:border-indigo-800 rounded-full' size={40} />
+                        <BsYoutube className='border-4 hover:border-indigo-800 rounded-full' size={40} />
                     </div>
 
                 </div>
             </div>
         </section>
 
-    {/* <div>Hero</div> */}
+        {/* <div>Hero</div> */}
     </>);
 };
 

@@ -10,7 +10,7 @@ const App = () => {
     <Main/>  
     {/* <h1 className="text-3xl font-bold underline">App section of the React Web App</h1> */}
     {/* <Header></Header> */}
-    <Header/>
+    {/* <Header/> */}
     {/* <Tea/> */}
   </>
   )
